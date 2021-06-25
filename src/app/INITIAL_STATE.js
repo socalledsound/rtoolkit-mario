@@ -28,5 +28,6 @@ export const INITIAL_STATE = {
         ],
         collected : [0,0, 0, 0, 0 , 0],
         size: 50,
+        numCoinsCollected: 0,
     }
 }
