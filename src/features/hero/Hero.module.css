@@ -1,0 +1,69 @@
+.heroContainer {
+  width: 50px;
+  height: 50px;
+  position: absolute;
+}
+
+.heroImage {
+  width: 100%;
+}
+
+.buttonContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.moveButton {
+  width: 10rem;
+  margin-top: 1.2rem;
+  margin-left: 1.2rem;
+  box-sizing: border-box;
+  padding: 1.2rem;
+  border-radius: 0.3rem;
+  border: none;
+  color: rgb(247, 247, 247);
+  font-weight: 600;
+  text-transform: uppercase;
+  box-shadow: 0px 8px 30px rbga(0, 0, 0, 0.1);
+  cursor: pointer;
+  outline: none;
+}
+
+.UP {
+  background-color: rgb(218, 118, 118);
+}
+
+.UP:hover {
+  background-color: red;
+}
+
+.LEFT {
+  background-color: rgb(172, 124, 216);
+}
+
+.LEFT:hover {
+  background-color: rgb(85, 1, 164);
+}
+
+.RIGHT {
+  background-color: rgb(118, 118, 208);
+}
+
+.RIGHT:hover {
+  background-color: blue;
+}
+
+.DOWN {
+  background-color: rgb(92, 164, 92);
+}
+
+.DOWN:hover {
+  background-color: green;
+}

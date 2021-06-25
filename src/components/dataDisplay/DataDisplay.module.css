@@ -1,0 +1,24 @@
+.dataWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 85%;
+  margin-bottom: 0.2rem;
+  background-color: rgb(25, 105, 105);
+  padding: 0.5rem;
+  margin: 0 auto;
+  border-radius: 0.3rem;
+}
+
+.dataContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.dataItem {
+  color: white;
+  padding: 0.25rem;
+  margin: 0 auto;
+}
